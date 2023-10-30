@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
 <body>
     <header class="jumbotron">
         <div class="container">
+            <div class="row row-header"> 1 </div>
             <div class="row">
-                <div class="col-12 col-sm-6">...</div>
+                <div class="col-12 col-sm-6">
+
+
+
+                </div>
                 <div class="col-12 col-sm">...</div>
 
             </div>
@@ -21,15 +27,22 @@
     </header>
     <section>
         <div class="container">
+            <div class="row row-content align-items-center"> 2 </div>
+
+            <div class="row row-content align-items-center"> 3 </div>
+
+            <div class="row row-content align-items-center"> 4 </div>
             <div class="row">
                 <div class="col-12 col-sm-4 col-md-3 order-sm-last">1</div>
                 <div class="col col-sm col-md order-sm-first"> 2 </div>
             </div>
         </div>
     </section>
-    <div class="footer">
-        <div class="row">
-            <div class="col-4 offset-1 col-sm-2"> A </div>
+    <footer class="footer">
+        <div class="row justify-content-center">
+            <div class="col-4 offset-1 col-sm-2">
+                <ul class="list-unstyled">...</ul>
+            </div>
 
 
 
@@ -37,13 +50,13 @@
 
 
 
-            <div class="col-12 col-sm-4"> C </div>
+            <div class="col-12 col-sm-4 align-self-center"> C </div>
 
 
 
-            <div class="col-auto"> d </div>
+            <div class="col-auto text-center"> d </div>
         </div>
-    </div>
+    </footer>
 </body>
 <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
 <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
